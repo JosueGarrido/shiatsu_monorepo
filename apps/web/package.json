@@ -1,0 +1,11 @@
+{
+  "name": "@shiatsu/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"reserved for future frontend\"",
+    "lint": "echo \"no-lint @shiatsu/web\"",
+    "test": "echo \"no-test @shiatsu/web\"",
+    "typecheck": "echo \"no-typecheck @shiatsu/web\""
+  }
+}

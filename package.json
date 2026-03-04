@@ -1,0 +1,15 @@
+{
+  "name": "shiatsu-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.5.2",
+  "scripts": {
+    "dev": "pnpm --filter @shiatsu/backend dev",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

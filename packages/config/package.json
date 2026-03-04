@@ -1,0 +1,17 @@
+{
+  "name": "@shiatsu/config",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "files": [
+    "tsconfig.base.json",
+    "tsconfig.next.json",
+    "eslint.base.cjs",
+    "prettier.config.cjs"
+  ],
+  "scripts": {
+    "lint": "echo \"no-lint @shiatsu/config\"",
+    "test": "echo \"no-test @shiatsu/config\"",
+    "typecheck": "echo \"no-typecheck @shiatsu/config\""
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@shiatsu/validators",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "lint": "echo \"no-lint @shiatsu/validators\"",
+    "test": "echo \"no-test @shiatsu/validators\"",
+    "typecheck": "tsc --project tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@shiatsu/types": "workspace:*",
+    "zod": "^3.24.2"
+  }
+}
